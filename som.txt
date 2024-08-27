@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #eaf0e0; /* Light green, biodegradable feel */
+            color: #4b5320; /* Dark olive green for text */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #3a5f0b; /* Dark green, tree-inspired */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #8f9779; /* Moss green for navigation */
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #6b8e23; /* Olive drab for hover effect */
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #2f4f4f; /* Dark slate gray for headings */
+        }
+        footer {
+            background-color: #3a5f0b; /* Matching footer with header */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .highlight {
+            color: #8b4513; /* Saddle brown for highlights */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Nature-Themed Webpage</h1>
+    </header>
+
+    <nav>
+        <a href="#welcome">Welcome</a>
+        <a href="#explore">Explore</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact Information</a>
+        <a href="#blog">Blog</a>
+    </nav>
+
+    <section id="welcome">
+        <h2>Welcome</h2>
+        <p>Welcome to my personal webpage, a space where nature and technology blend harmoniously. Here, you can explore my interests, learn more about me, and connect.</p>
+    </section>
+
+    <section id="explore">
+        <h2>Explore</h2>
+        <p>Explore the beauty of nature through my eyes. Discover the wonders of trees, the importance of biodegradable practices, and the serenity that nature brings.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am passionate about the environment and sustainable living. My mission is to promote awareness about the significance of preserving our natural world.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>You can reach me at <span class="highlight">email@example.com</span> or follow me on social media to stay connected.</p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Stay tuned for blog posts where I share my thoughts on nature conservation, sustainability, and more.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 Your Name | Designed with Nature in Mind</p>
+    </footer>
+
+</body>
+</html>
+
